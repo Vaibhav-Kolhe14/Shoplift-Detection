@@ -1,0 +1,76 @@
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .upload-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .upload-input-container {
+    position: relative;
+  }
+  
+  .upload-label {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-label:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-input {
+    display: none;
+  }
+  
+  .file-name {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #555;
+  }
+  .upload-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-button:hover {
+    background-color: #218838;
+  }
+  
+  .upload-status {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .prediction-result {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+    

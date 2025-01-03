@@ -1,0 +1,57 @@
+/* Global Styles */
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.App {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+
+/* Section Spacing */
+
+section {
+    padding: 2rem 1rem;
+}
+
+
+/* Navbar Styling */
+
+.navbar {
+    background-color: #333;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #28a745;
+}
+
+
+/* Footer Styling */
+
+footer {
+    background-color: #222;
+    color: #aaa;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
