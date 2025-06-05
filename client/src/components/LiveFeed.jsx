@@ -35,7 +35,7 @@ function LiveFeed() {
       console.log("Sending frame to backend:", imageSrc); // Debug sent data
 
       const response = axios.post(
-        "http://localhost:5000/detect",
+        "http://localhost:5050/detect",
         {
           frame: imageSrc,
         },
