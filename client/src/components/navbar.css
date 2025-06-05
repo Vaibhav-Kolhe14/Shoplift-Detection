@@ -1,0 +1,96 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    /* Modern dark color */
+    padding: 15px 30px;
+    /* Increased padding for better spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+}
+
+.navbar-logo h1 {
+    color: #ecf0f1;
+    /* Light color for contrast */
+    font-size: 24px;
+}
+
+.navbar-links ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin-left: 30px;
+    /* Increased spacing for clarity */
+}
+
+.navbar-links a {
+    color: #ecf0f1;
+    /* Light link color */
+    text-decoration: none;
+    font-weight: bold;
+    /* Bold text for emphasis */
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+    /* Underline on hover for clarity */
+}
+
+.cta-button {
+    background-color: #e74c3c;
+    /* Eye-catching red color */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+.cta-button a {
+    color: white;
+    /* Ensure link inside button is white */
+}
+
+.navbar-toggler {
+    display: none;
+    /* Hidden by default */
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        /* Hide links initially */
+        flex-direction: column;
+        /* Stack vertically */
+        position: absolute;
+        /* Position it over the content */
+        top: 60px;
+        /* Below the navbar */
+        left: 0;
+        right: 0;
+        background-color: #34495e;
+        /* Match navbar background */
+        z-index: 1000;
+        transition: max-height .3s ease-in-out;
+    }
+    .navbar-links.open {
+        display: flex;
+        /* Show links when open */
+    }
+    .navbar-toggler {
+        display: block;
+        /* Show hamburger icon on small screens */
+        color: white;
+        cursor: pointer;
+        font-size: 24px;
+        /* Larger icon for better visibility */
+    }
+}

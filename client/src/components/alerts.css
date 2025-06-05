@@ -1,0 +1,142 @@
+/* General Alerts Section Styling */
+
+.alerts {
+    padding: 40px 5%;
+    background-color: #ffffff;
+    /* Matching background color with the dashboard */
+    /* border-radius: 10px; */
+    /* Slight border-radius for rounded corners */
+    width: 90%;
+    /* Matches the screen width */
+    margin: 1% 5%;
+    /* Adjust to fit with the page */
+    text-align: center;
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); */
+    /* Slightly lighter shadow */
+    /* transition: transform 0.3s ease; */
+    border: 1px solid black;
+}
+
+
+/* Alerts Title */
+
+.alerts-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+
+/* Centered Alert Button */
+
+.alert-button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.alert-button:hover {
+    background-color: #e74c3c;
+    transform: scale(1.05);
+}
+
+
+/* Alert Message Box */
+
+.alert-box {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    /* Updated for consistency with dark theme */
+    border: 1px solid #444;
+    color: #f4f4f4;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 100%;
+    /* Allow full width */
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    /* Slightly lighter shadow */
+}
+
+
+/* Footer Buttons */
+
+.alerts-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.alerts-footer button {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.clear-alerts {
+    background-color: #4caf50;
+    color: white;
+}
+
+.clear-alerts:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.view-history {
+    background-color: #007bff;
+    color: white;
+}
+
+.view-history:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.settings {
+    background-color: #f39c12;
+    color: white;
+}
+
+.settings:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+}
+
+
+/* Responsive Styling */
+
+@media (max-width: 768px) {
+    .alerts-footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .alerts {
+        padding: 30px 10%;
+        /* Adjust padding for smaller screens */
+    }
+    .alert-button {
+        padding: 12px 20px;
+        /* Adjust button size */
+    }
+    .alert-box {
+        width: 100%;
+        /* Full width for smaller screens */
+    }
+}

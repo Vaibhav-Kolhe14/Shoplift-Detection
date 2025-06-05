@@ -1,0 +1,28 @@
+.about {
+    padding: 40px 5%;
+    text-align: center;
+    color: #fff;
+    background-color: #1e1e1e;
+  }
+  
+  .about-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .team-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .team-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,46 @@
+.analytics {
+    padding: 40px 5%;
+    background-color: #1a1a1a;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .analytics-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .analytics-card {
+    background-color: #2a2a2a;
+    color: #f4f4f4;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+  }
+  
+  .analytics-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .heatmap {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .heatmap img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .analytics-card {
+      width: 100%;
+    }
+  }
+  
